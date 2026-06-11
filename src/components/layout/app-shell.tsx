@@ -40,7 +40,7 @@ const marketingItems = [
   { href: "/marketing/website-analytics", label: "Website Analytics", icon: BarChart3 },
   { href: "/marketing/google-ads", label: "Google Ads", icon: MousePointerClick },
   { href: "/marketing/search-console", label: "Search Console", icon: Search },
-  { href: "/marketing/google-business-profile", label: "Google Business Profile", icon: MapPinned },
+  { href: "/marketing/google-analytics", label: "Google Analytics", icon: Globe2 },
   { href: "/marketing/social-media", label: "Social Media", icon: Share2 },
   { href: "/marketing/email-campaigns", label: "Email Campaigns", icon: MessageSquareText }
 ];
