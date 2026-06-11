@@ -4,6 +4,9 @@ export const allowedRoles = ["owner", "manager"] as const;
 
 export type UserRole = (typeof allowedRoles)[number];
 
+const damienOwnerPassword =
+  process.env.DAMIEN_OWNER_PASSWORD ?? (process.env.NODE_ENV === "development" ? "test" : "");
+
 export const demoUsers = [
   {
     email: "lisa@hentylodge.com",
@@ -14,7 +17,7 @@ export const demoUsers = [
   {
     email: "damienbrace@gmail.com",
     name: "Damien",
-    password: "test",
+    password: damienOwnerPassword,
     role: "owner" satisfies UserRole
   },
   {

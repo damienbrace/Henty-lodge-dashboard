@@ -10,7 +10,7 @@ export async function POST(request: Request) {
   const password = body?.password ?? "";
 
   const user = demoUsers.find(
-    (candidate) => candidate.email === email && candidate.password === password
+    (candidate) => candidate.email === email && candidate.password && candidate.password === password
   );
 
   if (!user) {
