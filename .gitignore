@@ -12,3 +12,5 @@ auth-cookies.txt
 coverage
 .DS_Store
 tsconfig.tsbuildinfo
+
+.vercel
