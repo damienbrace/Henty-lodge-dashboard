@@ -1,0 +1,14 @@
+node_modules
+.next
+.npm-cache
+out
+dist
+build
+.env
+.env*
+!.env.example
+*.log
+auth-cookies.txt
+coverage
+.DS_Store
+tsconfig.tsbuildinfo
