@@ -11,6 +11,7 @@ const protectedPrefixes = [
   "/finance",
   "/local-guide",
   "/reports",
+  "/marketing/search-console",
   "/ai-assistant",
   "/settings"
 ];
