@@ -12,6 +12,12 @@ export const demoUsers = [
     role: "owner" satisfies UserRole
   },
   {
+    email: "damienbrace@gmail.com",
+    name: "Damien",
+    password: "test",
+    role: "owner" satisfies UserRole
+  },
+  {
     email: "manager@hentylodge.com",
     name: "Manager",
     password: "HentyManager2026!",
